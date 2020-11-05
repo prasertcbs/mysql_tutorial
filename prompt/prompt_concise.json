@@ -1,0 +1,95 @@
+{
+  "desc" : "256/24bit color terminal theme with MySQL prefix, default schema, host:port, ssl, + indicator for X protocol, active mode.",
+  "classes" : {
+    "SQL" : {
+      "fg" : "15",
+      "bg" : "166"
+    },
+    "JS" : {
+      "fg" : "0",
+      "bg" : "221"
+    },
+    "Py" : {
+      "fg" : "15",
+      "bg" : "25"
+    },
+    "schema" : {
+      "text": "%schema%"
+    },
+    "noschema" : {
+      "text": ""
+    },
+    "disconnected": {
+    },
+    "host" : {
+      "text": "%transport%"
+    },
+    "hostx" : {
+      "text": "%transport%+"
+    },
+    "hostc" : {
+      "text": "%transport%"
+    },
+    "SSLhost" : {
+      "text": "%transport% ssl"
+    },
+    "SSLhostx" : {
+      "text": "%transport%+ ssl"
+    },
+    "SSLhostc" : {
+      "text": "%transport% ssl"
+    },
+
+    "production" : {
+      "text": " PRODUCTION ",
+      "bg": "red",
+      "fg": "white"
+    }
+  },
+  "variables" : {
+    "is_production": {
+        "match" : {
+            "pattern": "*;%host%;*",
+            "value": ";%env:PRODUCTION_SERVERS%;"
+        },
+        "if_true" : "production",
+        "if_false" : ""
+    },
+    "transport" : {
+        "match" : {
+          "pattern": "%socket%",
+          "value": ""
+        },
+        "if_true": "%host%:%port%",
+        "if_false": "localhost"
+    }
+  },
+  "symbols" : {
+    "separator" : "",
+    "separator2" : "",
+    "ellipsis" : "..."
+  },
+  "prompt" : {
+    "text" : "> ",
+    "cont_text" : "%linectx%> ",
+    "bg": "0"
+  },
+  "segments": [
+	{
+	  "classes": ["disconnected%host%", "%is_production%"]
+	},
+    {
+      "classes": ["noschema%schema%", "schema"],
+      "bg": 242,
+      "fg": 15,
+      "shrink": "ellipsize",
+      "weight": -1,
+      "padding" : 1
+    },
+    {
+      "classes": ["%Mode%"],
+      "text": "%Mode%",
+      "padding" : 1
+    }
+  ]
+}

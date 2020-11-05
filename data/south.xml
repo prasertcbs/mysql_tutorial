@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:html="http://www.w3.org/TR/REC-html40">
+<Worksheet ss:Name="Table1">
+	<Table>
+		<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Row>
+			<Cell><Data ss:Type="String">region</Data></Cell>
+			<Cell><Data ss:Type="String">name_th</Data></Cell>
+			<Cell><Data ss:Type="String">population</Data></Cell>
+			<Cell><Data ss:Type="String">area_km2</Data></Cell>
+		</Row>
+
+		<Row>
+			<Cell><Data ss:Type="String">ใต้</Data></Cell>
+			<Cell><Data ss:Type="String">กระบี่</Data></Cell>
+			<Cell><Data ss:Type="Number">469769</Data></Cell>
+			<Cell><Data ss:Type="Number">4708.5</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">ใต้</Data></Cell>
+			<Cell><Data ss:Type="String">ชุมพร</Data></Cell>
+			<Cell><Data ss:Type="Number">509650</Data></Cell>
+			<Cell><Data ss:Type="Number">6010.8</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">ใต้</Data></Cell>
+			<Cell><Data ss:Type="String">ตรัง</Data></Cell>
+			<Cell><Data ss:Type="Number">643072</Data></Cell>
+			<Cell><Data ss:Type="Number">4917.5</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">ใต้</Data></Cell>
+			<Cell><Data ss:Type="String">นครศรีธรรมราช</Data></Cell>
+			<Cell><Data ss:Type="Number">1557482</Data></Cell>
+			<Cell><Data ss:Type="Number">9942.5</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">ใต้</Data></Cell>
+			<Cell><Data ss:Type="String">นราธิวาส</Data></Cell>
+			<Cell><Data ss:Type="Number">796239</Data></Cell>
+			<Cell><Data ss:Type="Number">4475.4</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">ใต้</Data></Cell>
+			<Cell><Data ss:Type="String">ปัตตานี</Data></Cell>
+			<Cell><Data ss:Type="Number">709796</Data></Cell>
+			<Cell><Data ss:Type="Number">1940.4</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">ใต้</Data></Cell>
+			<Cell><Data ss:Type="String">พังงา</Data></Cell>
+			<Cell><Data ss:Type="Number">267491</Data></Cell>
+			<Cell><Data ss:Type="Number">4170.9</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">ใต้</Data></Cell>
+			<Cell><Data ss:Type="String">พัทลุง</Data></Cell>
+			<Cell><Data ss:Type="Number">524857</Data></Cell>
+			<Cell><Data ss:Type="Number">3424.5</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">ใต้</Data></Cell>
+			<Cell><Data ss:Type="String">ภูเก็ต</Data></Cell>
+			<Cell><Data ss:Type="Number">402017</Data></Cell>
+			<Cell><Data ss:Type="Number">543</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">ใต้</Data></Cell>
+			<Cell><Data ss:Type="String">ยะลา</Data></Cell>
+			<Cell><Data ss:Type="Number">527295</Data></Cell>
+			<Cell><Data ss:Type="Number">4521.1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">ใต้</Data></Cell>
+			<Cell><Data ss:Type="String">ระนอง</Data></Cell>
+			<Cell><Data ss:Type="Number">190399</Data></Cell>
+			<Cell><Data ss:Type="Number">3298</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">ใต้</Data></Cell>
+			<Cell><Data ss:Type="String">สตูล</Data></Cell>
+			<Cell><Data ss:Type="Number">319700</Data></Cell>
+			<Cell><Data ss:Type="Number">2479</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">ใต้</Data></Cell>
+			<Cell><Data ss:Type="String">สงขลา</Data></Cell>
+			<Cell><Data ss:Type="Number">1424230</Data></Cell>
+			<Cell><Data ss:Type="Number">7393.9</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">ใต้</Data></Cell>
+			<Cell><Data ss:Type="String">สุราษฎร์ธานี</Data></Cell>
+			<Cell><Data ss:Type="Number">1057581</Data></Cell>
+			<Cell><Data ss:Type="Number">12891.5</Data></Cell>
+		</Row>	</Table>
+</Worksheet>
+</Workbook>

@@ -1,0 +1,86 @@
+[
+	{
+		"region" : "ใต้",
+		"name_th" : "กระบี่",
+		"population" : 469769,
+		"area_km2" : 4708.5
+	},
+	{
+		"region" : "ใต้",
+		"name_th" : "ชุมพร",
+		"population" : 509650,
+		"area_km2" : 6010.8
+	},
+	{
+		"region" : "ใต้",
+		"name_th" : "ตรัง",
+		"population" : 643072,
+		"area_km2" : 4917.5
+	},
+	{
+		"region" : "ใต้",
+		"name_th" : "นครศรีธรรมราช",
+		"population" : 1557482,
+		"area_km2" : 9942.5
+	},
+	{
+		"region" : "ใต้",
+		"name_th" : "นราธิวาส",
+		"population" : 796239,
+		"area_km2" : 4475.4
+	},
+	{
+		"region" : "ใต้",
+		"name_th" : "ปัตตานี",
+		"population" : 709796,
+		"area_km2" : 1940.4
+	},
+	{
+		"region" : "ใต้",
+		"name_th" : "พังงา",
+		"population" : 267491,
+		"area_km2" : 4170.9
+	},
+	{
+		"region" : "ใต้",
+		"name_th" : "พัทลุง",
+		"population" : 524857,
+		"area_km2" : 3424.5
+	},
+	{
+		"region" : "ใต้",
+		"name_th" : "ภูเก็ต",
+		"population" : 402017,
+		"area_km2" : 543
+	},
+	{
+		"region" : "ใต้",
+		"name_th" : "ยะลา",
+		"population" : 527295,
+		"area_km2" : 4521.1
+	},
+	{
+		"region" : "ใต้",
+		"name_th" : "ระนอง",
+		"population" : 190399,
+		"area_km2" : 3298
+	},
+	{
+		"region" : "ใต้",
+		"name_th" : "สตูล",
+		"population" : 319700,
+		"area_km2" : 2479
+	},
+	{
+		"region" : "ใต้",
+		"name_th" : "สงขลา",
+		"population" : 1424230,
+		"area_km2" : 7393.9
+	},
+	{
+		"region" : "ใต้",
+		"name_th" : "สุราษฎร์ธานี",
+		"population" : 1057581,
+		"area_km2" : 12891.5
+	}
+]
