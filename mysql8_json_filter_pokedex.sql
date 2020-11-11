@@ -1,7 +1,7 @@
 -- สอน MySQL 8: filter JSON data
 -- pokedex table: https://github.com/prasertcbs/mysql_tutorial/blob/main/pokedex.sql
 -- doc: https://dev.mysql.com/doc/refman/8.0/en/json-search-functions.html
--- YouTube: 
+-- YouTube: https://youtu.be/CxY6oxtXXkI
 -- Author: Prasert Kanawattanachai
 -- email: prasert.k@chula.ac.th
 
