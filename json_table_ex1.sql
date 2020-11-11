@@ -1,7 +1,7 @@
 -- สอน MySQL 8: การแปลง JSON document ไปเก็บในตาราง
 -- import JSON doc to table
 -- doc: https://dev.mysql.com/doc/refman/8.0/en/json-table-functions.html
--- YouTube: 
+-- YouTube: https://youtu.be/68oTlF7UJgs
 -- Author: Prasert Kanawattanachai
 -- email: prasert.k@chula.ac.th
 
