@@ -1,8 +1,8 @@
--- สอน MySQL 8: basic regular expression
+-- สอน MySQL 8: การสืบค้นข้อมูลด้วย regular expression
 -- doc: https://dev.mysql.com/doc/refman/8.0/en/regexp.html
 -- sql script: https://github.com/prasertcbs/mysql_tutorial/blob/main/regexp_like.sql
 -- create 'movies' table script: https://github.com/prasertcbs/mysql_tutorial/blob/main/data/movies.sql
--- YouTube: 
+-- YouTube: https://youtu.be/DGw5Y8v-edU
 -- Author: Prasert Kanawattanachai
 -- email: prasert.k@chula.ac.th
 
@@ -80,6 +80,7 @@ select title from movies where title rlike '(spider|bat|iron)';
 select title from movies where title rlike '^(spider|bat|iron)';
 select title from movies where title rlike '(2|3)$';
 select title from movies where title rlike '(\\b2|\\b3)$';
+select title from movies where title rlike '\\b(2|3)$';
 
 -- contains 'three' or ends with 3
 select title from movies where title rlike 'three|3$';
