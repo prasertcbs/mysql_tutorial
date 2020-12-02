@@ -107,6 +107,7 @@ select title, actors from movies where actors rlike 'downey.*evans';
 select title, actors from movies where actors rlike 'evans.*downey';
 
 select title, actors from movies where actors rlike 'downey.*evans|evans.*downey';
+select title, actors from movies where actors rlike '(?=.*downey)(?=.*evans)';
 
 select title, actors from movies 
     where (actors rlike 'downey') and (actors rlike 'evans');
